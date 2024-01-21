@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,1.3),rgba(255,255,255,0.55)),url(/images/header_img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px 10px 0px;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: fixed;
+    margin-top: 0;
+}
+
+.logo{
+    width: 80px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.header1{
+    color: white;
+    font-size: 40px;
+    margin-top: -500px;
+  }
+
+.header1 h1{
+    margin-left: 100px;
+}
+
+.header1 p{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    line-height: 40px;
+}
+
+.profile{
+    margin-top: 200px;
+    border-bottom: 0px solid;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile2{
+    display: flex;
+}
+
+.topic1{
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    font-weight: 10;
+    border-bottom: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.prof-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.prof-img img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 0;
+    border-radius: 200px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prof-detail{
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    max-width: 500px;
+    border-left: 1px solid;
+    border-color: #E2C799;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.aboutme{
+    border-bottom: 0px solid;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.topic2{
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    font-weight: 10;
+    border-bottom: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.icon-list{
+    list-style: none;
+    display: flex;
+    justify-content:center
+}
+
+.icon-list img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.aboutme p{
+    font-size: 20px;
+    text-align: justify;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    line-height: 40px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-radius: 10px;
+    border-color: #E2C799;
+    padding: 20px;
+}
+
+.about-para{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projects{
+    border-bottom: 0px solid;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.project-para{
+    text-align: justify;
+    padding: 10px;
+}
+.project-para p{
+    width: 400px;
+    line-height: 35px;
+}
+
+
+.project-video video{
+    max-width: 500px;
+    max-height: 300px;
+    padding: 10px;
+}
+
+.contact{
+    border-bottom: 0px solid;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact .para1{
+    max-width: 700px;
+    text-align: center;
+    min-width: 400px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact .items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact .items div{
+    display: flex;
+    padding: 20px;
+}
+
+.contact .items img{
+    width: 40px;
+    height: 40px;
+}
+
+.contact .items p{
+    color: #555;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F8F0E5;
+    color: #f4a544;
+    text-align: center;
+    padding: 20px;
+ }
+
+@media screen and (max-width: 600px) {
+    nav{
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        position: fixed;
+        margin-top: 0;
+    }
+
+    nav ul{
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .logo{
+        width: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .header1 h1{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .header1 p{
+        text-align: justify;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 600px;
+        line-height: 40px;
+        min-width: 400px;
+    }
+    .aboutme p{
+        max-width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .profile2{
+        flex-direction: column;
+    }
+    .prof-detail{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: #E2C799;
+    }
+
+    .contact .items{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .project-content{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .project-video video{
+        width: 400px;
+    }
+  }
